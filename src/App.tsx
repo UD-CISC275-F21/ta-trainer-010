@@ -1,15 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Welcome } from './components/welcome';
+import {Person} from "./interfaces/person";
 
-function App() {
+function App(): JSX.Element {
+  const babbage: Person = {name: "Babbage Bart", shirtColor: "Green"};
+  
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Welcome person={babbage}></Welcome>
         <a
           className="App-link"
           href="https://reactjs.org"
