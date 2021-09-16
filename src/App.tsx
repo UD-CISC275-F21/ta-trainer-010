@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import { Welcome } from './components/welcome';
-import {Person} from "./interfaces/person";
+import { Prompt } from './components/Prompt';
+import { SwapButton } from './components/SwapButton';
 
 function App(): JSX.Element {
-  const babbage: Person = {name: "Babbage Bart", shirtColor: "Green"};
-  
+  const [prompt, setPrompt] = useState<string>("Hello and welcome");
+
+  /*useEffect(() => {
+    setPrompt("Hello and welcome Actual")
+  })*/
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Welcome person={babbage}></Welcome>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Prompt text={prompt}></Prompt>
+        <SwapButton change={setPrompt}></SwapButton>
+      </div>
     </div>
   );
 }
