@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ta-trainer-010/static/css/main.a617e044.chunk.css",
+    "main.js": "/ta-trainer-010/static/js/main.2d1cb82a.chunk.js",
+    "main.js.map": "/ta-trainer-010/static/js/main.2d1cb82a.chunk.js.map",
+    "runtime-main.js": "/ta-trainer-010/static/js/runtime-main.bb0f0370.js",
+    "runtime-main.js.map": "/ta-trainer-010/static/js/runtime-main.bb0f0370.js.map",
+    "static/js/2.f7bcd918.chunk.js": "/ta-trainer-010/static/js/2.f7bcd918.chunk.js",
+    "static/js/2.f7bcd918.chunk.js.map": "/ta-trainer-010/static/js/2.f7bcd918.chunk.js.map",
+    "static/js/3.a542690d.chunk.js": "/ta-trainer-010/static/js/3.a542690d.chunk.js",
+    "static/js/3.a542690d.chunk.js.map": "/ta-trainer-010/static/js/3.a542690d.chunk.js.map",
+    "index.html": "/ta-trainer-010/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/ta-trainer-010/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.f7bcd918.chunk.js.LICENSE.txt": "/ta-trainer-010/static/js/2.f7bcd918.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb0f0370.js",
+    "static/js/2.f7bcd918.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.2d1cb82a.chunk.js"
+  ]
+}
